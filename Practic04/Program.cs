@@ -151,7 +151,6 @@ namespace Practic04
 
         private static string GetClassesForGroup(string groupNumber)
         {
-            // Здесь вы можете добавить логику для получения расписания занятий для группы
             return groupNumber switch
             {
                 "1" => "Занятия группы 44ИС:\n- Экономика 1 сентября 9:00\n- Информационные системы 1 сентября 11:00",
